@@ -1,0 +1,147 @@
+body {
+    background-color: #f4ecd8;
+    background-image: linear-gradient(to bottom, #f7f1e5, #e8dfcb);
+   	color: #2b2621;
+    font-family: "Lora", Georgia, serif;
+   	margin: 0;
+   	padding: 30px;
+    line-height: 1.7;
+}
+
+
+.cabecalho-principal {
+    text-align: center;
+	border-bottom: 2px solid #b38958;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 0.9rem;
+	color: #6b5b4e;
+	border-top: 1px solid #d4c5a9;
+	padding-top: 15px;
+	font-family: "Cinzel", serif;
+	letter-spacing: 1px;
+}
+
+
+h1 {
+	color: #1a1512;
+	font-family: "Cinzel", serif;
+	font-weight: 900;
+	font-size: 3.2rem;
+	margin-bottom: 5px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	color: #8b0000;
+	font-family: "Cinzel", serif;
+	font-weight: 700;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+h3 {
+	color: #8b0000;
+	font-family: "Cinzel", serif;
+	font-weight: 700;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #d4c5a9;
+	padding-bottom: 5px;
+	margin-top: 30px;
+}
+
+
+.destaque {
+	background-color: #e5dac2;
+	color: #1f1b18;
+	padding: 18px 22px;
+	border-left: 6px solid #8b0000;
+	border-right: 1px solid #d4c5a9;
+	border-top: 1px solid #d4c5a9;
+	border-bottom: 1px solid #d4c5a9;
+	border-radius: 2px;
+	margin: 25px 0;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.caixa-imagem {
+	text-align: center;
+	margin: 25px 0;
+}
+
+
+img {
+	max-width: 50%;
+	height: auto;
+	border-radius: 4px;
+	border: 4px solid #d4c5a9;
+	box-shadow: 0 6px 15px rgba(43, 38, 33, 0.2);
+}
+
+
+.legenda-imagem {
+	font-size: 0.85rem;
+	color: #6b5b4e;
+	font-style: italic;
+	margin-top:8px;
+}
+
+
+.item-lista {
+	background-color: #ede2cc;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-left: 4px solid #b38958;
+    border: 1px solid #d4c5a9;
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+a {
+	color: #8b0000;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px dotted #8b0000;
+}
+
+
+a:hover {
+	color:#b8860b;
+	border-bottom: 1px solid #b8860b;
+}
+
+
+
+/* MECANISMO DE AVALIAÇÃO METACOGNITIVA*/
+
+/*
+1. Desafio Técnico:
+  A regra de CSS mais difícil de aplicar foi "box-shadow", pois ajustar a intensidade, o desfoque e a opacidade da sombra exigiu vários testes.
+  Consegui superar essa dificuldade experimentando diferentes valores no Notepad++ até ficar como pretendia.
+
+2.Correção de Sintaxe:
+  O meu erro mais comum foi trocar os símbolos de maior e menor(> <), erros de caligrafia, esquecer-me de colocar a slash(/) ou um ponto e vírgula(;) no caso do CSS.
+
+3.Autoria:
+  href (ou "hypertext reference") serve, como o nome indica, como  referência ao código para que "percurso"(link/ hipergigação) este deve seguir de forma a: no caso do CSS, obter informação (link href="..."); no caso de links externos, redirecionar o utilizador a outra página (a href="...").
+  Basicamente, href diz ao navegador para onde ir quando um certo elemento é precionado pelo utilizador.
+
+*/
